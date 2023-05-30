@@ -1,2 +1,5 @@
-# PhDThesis
-This repository is for sharing PhD thesis managing and writing. Our focus group is UM (FSE/DACS/IDS) PhD students.
+# PhD Thesis Managing and Writing
+This repository is for sharing resources and tips for PhD thesis managing and writing. Our focus group is UM (FSE/DACS/IDS) PhD students. Jordi Heijman and myself (Chang Sun) hosted a PhD Thesis Writing Workshop session in DACS research day in May 2023. The resources and suggestions we presented and collected in the workshop may be helpful for other and future PhD students. Therefore, we would like to share the slides, resources, and templates in this repository and will keep them updated. 
+
+## Your Contribution is highly valuable
+We would also like to invite PhD students to ask questions and give commments by raising issues to the repo and share resources that may help your peers. For example, the UM thesis template on Overleaf is great but it still required me a lot work to modify the template (such as moving the overall Reference section to one Reference for each chapter.) Therefore, I would like to share my adopted template here so that future PhD students don't need to struggle with changing small things in Overleaf. 
