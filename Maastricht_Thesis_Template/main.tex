@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Use this for a a4 output
+%\input{definitions/a4style}
+
+%% Use this for your booklet
+\input{definitions/b5style}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Add the configuration and packages
+\input{definitions/configuration}
+\input{definitions/packages}
+\input{definitions/hyphenation}
+
+%% Path to the directory containing the graphics and figures
+%% You can add more subpaths by adding ``,{./figures/subdir/}`` within the first set of brackets.
+\graphicspath{{./figures/}}
+
+%% Load the default bibliography file
+\addbibresource{bibliography.bib}
+
+
+%% handy websites:
+%% https://www.tablesgenerator.com/
+%% https://www.codecogs.com/latex/eqneditor.php
+
+
+\begin{document}
+	
+%% The front matter
+\frontmatter
+	\headerpage
+	\thesistitlepage
+	\infopage[true]  % set to false to disable the copyright text
+	\dedication{To my parents}
+	\tableofcontents
+
+
+%% Start the main content
+\mainmatter
+	\include{chapters/introduction}
+	\include{chapters/chapter1}
+	\include{chapters/chapter2}
+	%...
+	\include{chapters/discussion}	
+
+
+%% The final part of the book, the bibliography and final parts
+\backmatter	
+    %% for the "notcategory" see the mttTemplate.cls file
+	\printbibliography[notcategory=ignore]
+	
+	\include{chapters/valorisation}
+	\include{chapters/samenvatting}
+	\include{chapters/acknowledgements}
+	\include{chapters/publications}
+	\include{chapters/about_the_author}
+
+\end{document}
