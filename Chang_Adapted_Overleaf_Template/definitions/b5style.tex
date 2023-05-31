@@ -1,0 +1,31 @@
+\documentclass
+[
+	paper=b5,
+	fontsize=10pt,
+	headings=big,
+	numbers=noendperiod, % 2.3.1 vs 2.3.1. (no dot after the last chapter number)
+	twoside,
+	paper=17cm:24cm,
+	DIV=14,
+	BCOR=5.0mm,
+	parskip=half, %% better paragraph spacing
+	cleardoublepage=empty,
+	headinclude,
+	pagesize,
+	headsepline,
+	toc=bibliography, % Bibliography appears in Table of Contents (without a number)
+	version=last % Use latest version of the KOMA-Script
+]
+{mttTemplate}
+
+\usepackage{geometry}
+\geometry{ignoreall,heightrounded,bottom=8.5em}
+
+\setlength{\headsep}{2.5em}
+% \setlength{\footskip}{2.5em}
+
+%% allows for conditioning on the paper format
+\providetoggle{a4style}
+\settoggle{a4style}{false}
+
+\flipbindingmargins
