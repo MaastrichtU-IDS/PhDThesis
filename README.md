@@ -7,8 +7,19 @@ This repository is for sharing resources and tips for PhD thesis managing and wr
 2. [UM PhD office](https://www.maastrichtuniversity.nl/phd-office) provides clear steps for you and your supervisors to organize the defense. Contact them immidiately when your thesis gets approved by the assessment committee. 
 
 ### Managing your Thesis and Defense
-1. **Make a thesis outline** and discuss with your supervisors at the beginning of 4th year (latest). You can find my template on [Google doc](https://docs.google.com/document/d/1mFYP3QIT8QrHebkTPLHVqSpdMrPE0yKA_Mdf6mSJdyo/edit?usp=sharing) or [local Word document](https://github.com/MaastrichtU-IDS/PhDThesis/blob/main/Thesis%20Outline%20Template%20%5BChang%20May%202023%5D.docx) as you like. 
+1. **Make a thesis outline** and discuss with your supervisors at the beginning of 4th year (latest) and keep it updated. You can find my template on [Google doc](https://docs.google.com/document/d/1mFYP3QIT8QrHebkTPLHVqSpdMrPE0yKA_Mdf6mSJdyo/edit?usp=sharing) or [local Word document](https://github.com/MaastrichtU-IDS/PhDThesis/blob/main/Thesis%20Outline%20Template%20%5BChang%20May%202023%5D.docx) as you like. 
     - This outline is like a mini-version of your thesis including the titles, status, key content of your each chapter. This outline will give you and your supervisor a clear overview and a storyline about your thesis and what stage of each chapter and a realitic timeline. You can adapt the outline to your own case. 
+    - **Chapters overview** with the status of each chapter (gives you and your supervisors a quick impression about your thesis progress)
+    - <img src='https://github.com/MaastrichtU-IDS/PhDThesis/blob/main/Img/chapterOverview.png' width='350'>
+    
+    - **Abstract** for each chapter (helps you and your supervisors to structure the storyline of your thesis)
+    - <img src='https://github.com/MaastrichtU-IDS/PhDThesis/blob/main/Img/eachChapter.png' width='350'>
+
+    - **General Planning** for tracking your overall progress (helps you estimate the finishing time and how long each step will cost you)
+    - <img src='https://github.com/MaastrichtU-IDS/PhDThesis/blob/main/Img/generalPlanning.png' width='350'>
+
+    - **Detailed Progress** for breaking down the general plan to small tasks (dayily or weekly achievable)
+    - <img src='https://github.com/MaastrichtU-IDS/PhDThesis/blob/main/Img/DetailedPro.png' width='350'>
 
 2. UM has an [official Overleaf account](https://www.overleaf.com/edu/maastrichtuniversity). You can find the [PhD Thesis Template](https://www.overleaf.com/latex/templates/maastricht-thesis-template-mtt-v2/sxsnqtrcjjpj) there. 
     - You can make some minor adaption to your own thesis such as listing references for each chatper instead of having a huge Reference section at the end of your thesis. I (Chang) would like to share my [adopted template](https://github.com/MaastrichtU-IDS/PhDThesis/tree/main/Chang_Adapted_Overleaf_Template) so that future PhD students don't need to struggle with changing small things in Overleaf. 
